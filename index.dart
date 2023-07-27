@@ -343,6 +343,7 @@ void saveData(List<User> users, List<Course> courses) {
     };
   }).toList());
 
+
   // Save data to files
   File('userData.json').writeAsStringSync(userJson);
   File('courses.json').writeAsStringSync(courseJson);
